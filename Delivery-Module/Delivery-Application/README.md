@@ -1,0 +1,2 @@
+# Delivery-Application
+This application is made for delivery purpose. The delivery can get all the request as such what he wants to deliver where he wants to deliver all the details to delivery boy reaches via this application. We have not implemented push notfications in this currently. So the Delivery boy wont be able to get any notifications right now. All the APIs are same as implemented and made for native.

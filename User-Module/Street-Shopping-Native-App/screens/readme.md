@@ -1,0 +1,1 @@
+all the app screens for all the modules will be here and divided into respective folders like user, Vendor, Delivery boy.

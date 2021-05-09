@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".streetshoppingdelivery.Dashboard.FragmentCategory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:elevation="10dp"
+        android:orientation="horizontal"
+        android:background="#f8f8ff"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_weight="8"
+            android:fontFamily="@font/bungee"
+            android:text="Street Shopping"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/feed_frag_add"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:visibility="invisible"
+            android:elevation="3dp"
+            android:paddingStart="30dp"
+            android:src="@drawable/settings_profile_fragment"
+            app:tint="@color/black" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:elevation="1dp"
+            android:layout_margin="4dp"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="4dp"
+            tools:targetApi="lollipop">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/Primary"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textview_ShopN"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/muli_black"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:hint="Shreeji Dresses"
+                    android:textColorHint="@color/white"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:gravity="center"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/white"
+                    android:elevation="3dp" />
+
+                <TextView
+                    android:id="@+id/textview_P"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/muli_black"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:hint="Products : 10"
+                    android:textColorHint="@color/white"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textAllCaps="true"
+                    android:gravity="start"/>
+                <TextView
+                    android:id="@+id/textview_D"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/muli_black"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:hint="Delivery : 101, PushpaKunj Society..."
+                    android:textColorHint="@color/white"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:gravity="start"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:elevation="1dp"
+            android:layout_margin="4dp"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="4dp"
+            tools:targetApi="lollipop">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/Primary"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textview_Sh"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/muli_black"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:hint="Rahil Garments"
+                    android:textColorHint="@color/white"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:gravity="center"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/white"
+                    android:elevation="3dp" />
+
+                <TextView
+                    android:id="@+id/textview_Pr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/muli_black"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:hint="Products : 2"
+                    android:textColorHint="@color/white"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textAllCaps="true"
+                    android:gravity="start"/>
+                <TextView
+                    android:id="@+id/textview_de"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/muli_black"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:hint="Delivery : 7 RCR, Ahmedabad "
+                    android:textColorHint="@color/white"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:gravity="start"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
